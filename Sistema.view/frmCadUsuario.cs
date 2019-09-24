@@ -7,11 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Sistema.Entidade;
+using Sistema.model;
 
 namespace Sistema.view
 {
     public partial class frmCadUsuario : Form
     {
+         usuarioEntidade objTabela = new usuarioEntidade();
         public frmCadUsuario()
         {
             InitializeComponent();
@@ -41,7 +44,7 @@ namespace Sistema.view
                             objTabela.Usuario = txtUsuario.Text;
                             objTabela.Senha = txtSenha.Text;
 
-                            int x = UsuarioModel.Inserir(objTabela);
+                            //int x = UsuarioModel.Inserir(objTabela);
                         }
                         catch (Exception ex)
                         {

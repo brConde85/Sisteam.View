@@ -68,9 +68,9 @@
             this.TxtSenha.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtSenha.Location = new System.Drawing.Point(151, 186);
             this.TxtSenha.Name = "TxtSenha";
-            this.TxtSenha.PasswordChar = '*';
             this.TxtSenha.Size = new System.Drawing.Size(301, 35);
             this.TxtSenha.TabIndex = 3;
+            this.TxtSenha.UseSystemPasswordChar = true;
             // 
             // label3
             // 

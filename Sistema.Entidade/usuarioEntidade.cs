@@ -3,7 +3,7 @@
 
 namespace Sistema.Entidade
 {
-    public class Class1
+    public class usuarioEntidade
     {
         private int id;
         private string nome;

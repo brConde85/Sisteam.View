@@ -93,6 +93,7 @@
             this.txtSenha.Name = "txtSenha";
             this.txtSenha.Size = new System.Drawing.Size(285, 26);
             this.txtSenha.TabIndex = 5;
+            this.txtSenha.UseSystemPasswordChar = true;
             // 
             // BtbNovo
             // 
