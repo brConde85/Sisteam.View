@@ -4,9 +4,4 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\Sistema.Control\Sistema.Control.csproj" />
-    <ProjectReference Include="..\Sistema.Entidade\Sistema.Entidade.csproj" />
-  </ItemGroup>
-
 </Project>

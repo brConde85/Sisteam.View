@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Sistema.Entidade;
-using Sistema.model;
+using Model;
 
 namespace Sistema.view
 {

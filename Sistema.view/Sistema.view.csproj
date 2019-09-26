@@ -89,13 +89,13 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Sistema.Entidade\Sistema.Entidade.csproj">
-      <Project>{b20c37d4-7bf3-4240-b9d3-01b4719ba5af}</Project>
+    <ProjectReference Include="..\Entidade\Sistema.Entidade.csproj">
+      <Project>{bbfd5541-2519-404b-b6b8-4389d939c74f}</Project>
       <Name>Sistema.Entidade</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Sistema.model\Sistema.model.csproj">
-      <Project>{5291c27e-bdea-4e2d-a801-56760120192f}</Project>
-      <Name>Sistema.model</Name>
+    <ProjectReference Include="..\Model\Sistema.Model.csproj">
+      <Project>{26f4212d-ec46-4099-a5d1-0f3003d6da36}</Project>
+      <Name>Sistema.Model</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
