@@ -29,7 +29,7 @@ namespace Control
                 // Abrindo uma outra conexção
                 cn.Connection = con;
                
-               
+               // retornando o execute 
                 return cn.ExecuteNonQuery();
             } 
         }
