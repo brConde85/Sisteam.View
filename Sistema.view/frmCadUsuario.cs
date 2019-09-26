@@ -44,11 +44,20 @@ namespace Sistema.view
                             objTabela.Usuario = txtUsuario.Text;
                             objTabela.Senha = txtSenha.Text;
 
-                            //int x = UsuarioModel.Inserir(objTabela);
+                            int x = UsuarioModel.Inserir(objTabela);
+
+                            if (x > 0)
+                            {
+                                MessageBox.Show(String.Format("Usuário {0} inserido com sucesso.", txtNome.Text));
+                            }
+                            else
+                            {
+                                //MessageBox.Show("Dado não inserido!");
+                            }
                         }
                         catch (Exception ex)
                         {
-                            MessageBox.Show("Ocorreu um erro!");
+                            MessageBox.Show("Ocorreu um erro!" +ex.Message);
                             throw;
                         }
                         break;

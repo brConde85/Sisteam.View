@@ -11,5 +11,10 @@ namespace Model
 {
     public class UsuarioModel
     {
+        public static int Inserir(usuarioEntidade objTabela)
+        {
+            // para retornar um valor quando algo for inserido
+            return new UsuarioDAO().Inserir(objTabela);
+        }
     }
 }

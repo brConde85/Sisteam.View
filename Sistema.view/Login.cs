@@ -24,5 +24,25 @@ namespace Sistema.view
             frmCadUsuario form = new view.frmCadUsuario();
             form.Show(); 
         }
+
+        private void TxtUsuario_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TxtSenha_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
